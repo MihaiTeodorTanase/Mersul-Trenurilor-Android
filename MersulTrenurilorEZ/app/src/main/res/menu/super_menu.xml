@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_menu_cameras"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        android:title="Camere"
+        android:visible="true"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_gara_nord"
+                android:title="București Nord" />
+            <item
+                android:id="@+id/menu_gara_brasov"
+                android:title="Brașov" />
+            <item
+                android:id="@+id/menu_gara_iasi"
+                android:title="Iași" />
+            <item
+                android:id="@+id/menu_gara_constanta"
+                android:title="Constața"
+                android:visible="false" />
+            <item
+                android:id="@+id/menu_gara_craiova"
+                android:title="Craiova" />
+            <item
+                android:id="@+id/menu_gara_timisoaranord"
+                android:title="Timișoara" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="Salvează Rute"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:title="Item"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_backward"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:title="@string/backward" />
+
+    <item
+        android:id="@+id/menu_forward"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:title="@string/forward"
+        />
+
+    <item
+        android:id="@+id/menu_refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="@string/refresh" />
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        app:showAsAction="always" />
+
+</menu>

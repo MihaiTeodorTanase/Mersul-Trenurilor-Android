@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mersul Trenurilor</string>
+    <string name="camera">camera</string>
+    <string name="save">Save</string>
+    <string name="backward">Backward</string>
+    <string name="forward">Forward</string>
+    <string name="refresh">Refresh</string>
+</resources>
